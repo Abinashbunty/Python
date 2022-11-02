@@ -7,13 +7,15 @@ numpy
 opencv-python
 pandas
 pillow
-qiskit
+projectq
+qiskit; python_version < "3.11"
 requests
-# scikit-fuzzy  # Causing broken builds
+rich
+scikit-fuzzy
 sklearn
 statsmodels
 sympy
-tensorflow
+tensorflow; python_version < "3.11"
 texttable
 tweepy
 xgboost
